@@ -1,0 +1,32 @@
+@startuml PersonalHelperSystem
+
+
+left to right direction
+
+actor User
+
+package PersonalHelper{
+    usecase "Add record" as add
+    usecase "Search record" as search
+    usecase "Edit record" as edit
+    usecase "Load file" as load
+    usecase "Remove record" as remove
+    usecase "Save record" as save
+    usecase "Cangratulate person" as congratulate
+    usecase "View all records" as view
+    usecase "Close the application" as exit
+}
+
+
+User --> add
+User --> search
+User --> edit
+User --> load
+User --> remove
+User --> save
+User --> congratulate
+User --> view
+User --> exit
+
+
+@enduml
