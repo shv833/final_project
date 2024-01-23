@@ -28,7 +28,7 @@ if __name__ == "__main__":
         if action in choice:
             choice[action].handle()
             if action in ['add', 'remove', 'edit']:
-                choice[action].book.save("auto_save")
+                book.save("auto_save")
         else:
             print("Incorrect option")
 

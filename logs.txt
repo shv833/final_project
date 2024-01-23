@@ -77,3 +77,8 @@
 [23:46:08] Contact asd has been added.
 [23:46:08] Addressbook has been saved!
 [23:49:36] Addressbook has been loaded!
+[14:31:25] Addressbook has been loaded!
+[14:32:18] Contact sf has been added.
+[14:33:10] Addressbook has been loaded!
+[14:33:28] Contact sf has been added.
+[14:33:28] Addressbook has been saved!
